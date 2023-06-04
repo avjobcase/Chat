@@ -6,7 +6,7 @@ import Foundation
 
 public struct DraftMessage {
     public var id: String?
-    public let text: String
+    public var text: String
     public let attachments: [any Attachment]
     public let recording: Recording?
     public let replyMessage: ReplyMessage?
